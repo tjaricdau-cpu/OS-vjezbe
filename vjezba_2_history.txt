@@ -1,0 +1,64 @@
+    1  [200~https://github.com/tjaricdau-cpu/OS-vje-be.git~
+    2  git clone
+    3  git clone https://github.com/tjaricdau-cpu/OS-vje-be.git
+    4  ls
+    5  cd vjezba 2
+    6  cd vjezba2
+    7  mkdir data
+    8  mkdir backup
+    9  ls
+   10  cd data
+   11  touch script.js
+   12  style.css
+   13  .env
+   14  touch script.js style.css .env
+   15  echo "body { background-color: #f0f0f0; }" > style.css
+   16  echo "vjezba-os" > .env
+   17  echo 'console.log("Hello, World!");' > script.js
+   18  ls
+   19  ls -a
+   20  cat script.js
+   21  cat .env
+   22  cat style.css
+   23  echo "VJEZBE=OS" > .env
+   24  cat .env
+   25  cd ..
+   26  cd ..
+   27  git add .
+   28  git commit -m "Riješen zadatak 2"
+   29  git push
+   30  cd vjezba2
+   31  cp -v data/script.js data/style.css data/.env backup
+   32  cd backup
+   33  ls
+   34  ls -a
+   35  cd ..
+   36  cd data
+   37  ls -lSa ../backup
+   38  cd ..
+   39  cd ..
+   40  git add.
+   41  git add .
+   42  git commit -m "Riješen zadatak 3"
+   43  git push
+   44  cd vjezba2
+   45  rm -iv data/script.js data/style.css
+   46  cp -nv backup/script.js backup/style.css backup/.env data/
+   47  ls -lAt1 data
+   48  cd ..
+   49  git add .
+   50  git commit -m "Riješen zadatak 4"
+   51  ls -la vjezba2/data
+   52  git add .
+   53  git commit -m "Riješen zadatak 4"
+   54  git push
+   55  ls -laS
+   56  cd vjezba2
+   57  ls -laS
+   58  ls -lSh
+   59  tree -a
+   60  ls -Ra
+   61  cd ..
+   62  git add .
+   63  git commit -m "Riješen zadatak 5"
+   64  history > vjezba_2_history.txt
