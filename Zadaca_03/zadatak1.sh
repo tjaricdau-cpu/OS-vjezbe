@@ -5,6 +5,13 @@ if [ $# -ne 2 ]; then
     exit 1
 fi
 
+#!/bin/bash
+
+if [ $# -ne 2 ]; then
+    echo "Pogreška: Potrebno je proslijediti točno 2 argumenta."
+    exit 1
+fi
+
 PUTANJA=$1
 NASTAVAK=$2
 
@@ -15,9 +22,9 @@ fi
 
 PRONADJENO=false
 
-for datoteka in "$PUTANJA"/*; do
-    if [ -f "$datoteka" ] && [[ "$datoteka" == *"$NASTAVAK" ]]; then
-        basename "$datoteka"
+for file in $(ls "$PUTANJA"); do
+    if [[ $file == *"$NASTAVAK" ]]; then
+        echo "$file"
         PRONADJENO=true
     fi
 done
