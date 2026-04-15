@@ -1,0 +1,52 @@
+    1  [200~https://github.com/tjaricdau-cpu/OS-vje-be.git~
+    2  git clone
+    3  git clone https://github.com/tjaricdau-cpu/OS-vje-be.git
+    4  nano zadatak_1.sh
+    5  chmod +x zadatak1.sh
+    6  clear
+    7  nano zadatak1.sh
+    8  chmod +x zadatak1.sh
+    9  ./zadatak1.sh /apsolutna/putanja/do/foldera .txt
+   10  nano zadatak1.sh
+   11  chmod +x zadatak1.sh
+   12  ./zadatak1.sh
+   13  ./zadatak1.sh . .txt
+   14  mkdir zadaca_03
+   15  mv zadatak1.sh zadaća_3/
+   16  pwd
+   17  ls
+   18  mv zadatak1.sh zadaca_03/
+   19  ls
+   20  cd zadaca_03
+   21  ls
+   22  git init
+   23  git add .
+   24  git commit -m
+   25  nano zadatak2.sh
+   26  chmod +x zadatak2.sh
+   27  ./zadatak2.sh
+   28  ./zadatak2.sh 5
+   29  touch OS3.md OS3.pdf
+   30  mkdir -p screenshots
+   31  touch screenshots/bash.png screenshots/nano.png screenshots/vim.png
+   32  cd screenshots
+   33  ls
+   34  nano zadatak3.sh
+   35  ls
+   36  chmod +x zadatak3.sh
+   37  ls
+   38  cd ..
+   39  ./screenshots/zadatak3.sh
+   40  ls screenshots
+   41  nano zadatak4.sh
+   42  chmod +x zadatak4.sh
+   43  ./zadatak4.sh
+   44  ./zadatak4.sh 2
+   45  ./zadatak4.sh 2
+   46  ./zadatak4.sh screenshots
+   47  nano zadatak5.sh
+   48  chmod +x zadatak5.sh
+   49  pwd
+   50  ./zadatak5.sh /c/Users/tihid/OneDrive/Documents/GitHub/OS-vjezbe/zadaca_03
+   51  ./zadatak5.sh /c/Users/tihid/OneDrive/Documents/GitHub/OS-vjezbe
+   52  history > history.txt
